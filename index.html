@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gesture Christmas Tree</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        background-color: #050a08; /* Deep dark green/black */
+        font-family: 'Lato', sans-serif;
+      }
+      h1, h2, h3 {
+        font-family: 'Cinzel', serif;
+      }
+      /* Custom Scrollbar for panels */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.05);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgba(212, 175, 55, 0.5);
+        border-radius: 3px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.7",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "three": "https://aistudiocdn.com/three@^0.181.2",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "@react-three/postprocessing": "https://aistudiocdn.com/@react-three/postprocessing@^3.0.4",
+    "@mediapipe/camera_utils": "https://esm.sh/@mediapipe/camera_utils@0.3.1675466862?exports=Camera",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.2",
+    "@mediapipe/hands": "https://esm.sh/@mediapipe/hands@0.4.1675469240?exports=Hands"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
